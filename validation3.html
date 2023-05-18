@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vali3.css">
+</head>
+
+<body>
+
+    <section class="sec-one">
+        <form onsubmit="validation()">
+            <fieldset>
+                <div class="conteiner">
+                    <div class="hed">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="input-group" id="ab">
+                        <input  type="text" name="text" id="name"  class="input"> <span id="nameeroor"></span>
+                        <label class="user-label">username</label>
+                    </div>
+                    <div class="input-group" id="cd">
+                        <input  type="text" name="text" id="pass"  class="input"> <span id="passerror"></span>
+                        <label class="user-label">password</label>
+                    </div>
+                    <div class="input-group" id="ef">
+                        <input  type="text" name="text" id="mail"  class="input"> <span id="mailerror"></span>
+                        <label class="user-label">Email</label>
+                    </div>
+                    <div class="input-group" id="gh">
+                        <input  type="text" name="text" id="num"  class="input"> <span id="numerror"></span>
+                        <label class="user-label">phonenumber </label>
+                    </div>
+                    <input type="submit" value="submit">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+        <script src="./valid3.js"></script>
+
+
+</body>
+
+</html>
